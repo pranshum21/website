@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/d19f26fe48.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate Student </p>
+                <h1>Hi,I'm <span>Pranshu</span><br> Mangal From India</h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/u.jpg"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am  Pranshu Mangal, a passionate and dedicated undergraduate student at IIT Kanpur pursuing a major in Mathematics and Scientific Computing. With a deep-rooted curiosity and a drive for excellence, I constantly seeks opportunities to expand their knowledge and skill set.
+
+                        With a strong foundation in front-end web development, including HTML, CSS, JavaScript, and ReactJS, I combines my technical prowess with a keen eye for aesthetics to create visually stunning and user-friendly websites. my ability to seamlessly blend functionality and design ensures a captivating user experience.
+                        
+                        In addition to my web development skills, I possesses a versatile programming acumen, proficient in languages such as C/C++ and Python. my expertise extends to data structures and algorithms, enabling me to tackle complex problem-solving challenges.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web Development</span><br>Desigining web interface</li> 
+                            <li><span>Strong DSA</span><br>can solve various types of problem of DSA in C/C++ </li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span style="font-size: 30px; color: yellow;">FRESHER</span><br></li>
+                    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           
+                          
+                            <li><span>Bachelor in Science[MTH]  (2021-present)* </span><br>Indian Institute of Technology Kanpur</li>
+                            <li><span>12th CBSE,  2020</span><br>S.S Public School</li>
+                            <li><span>10th CBSE,  2018 </span><br>Tagore Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  
+
+
+
+
+    <div id="portfolio">
+        <div class="container port">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work ">
+                    <img class="rockgame" src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Rock Paper Scissor game</h3>
+                        <p>Play Rock, Paper, Scissors, the classic hand game of strategy and chance, and have fun challenging computer.</p>
+                        <a href="https://pranshum21.github.io/rock_paper_scissors/Rock_paper_scissors.html"target="_blank"><i class="fa-solid fa-up-right-from-square" target="_blank"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>An immersive music app that brings your favorite tunes to life with personalized playlists</p>
+                        <a href="https://pranshum21.github.io/music_website/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>An e-commerce website that provides a lackluster shopping experience on various devices.</p>
+                        <a href="https://pranshum21.github.io/shopping_website/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://pranshum21.github.io/seemore/seemore.html" target="_blank " class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div
+                 class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Pranshumangal876@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+91-8410311786</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pranshu.mangal.5/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/pranshum21" target="_blank"><i class="fa-sharp fa-solid fa-code-branch"></i></a>
+                    <a href="https://www.instagram.com/pranshu_mangal_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pranshu-mangal-154543230" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                 <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" class='name_input'name="Name" placeholder="Your Name" required >
+                        <input type="email" class='email_input' name="Email" placeholder="Your Email" required >
+                        <textarea name="Message" class='message_input' rows="6" placeholder="Your Message"></textarea>
+                        <button type ="submit"class="btn btn2 " onclick="">Submit</button>
+                        
+                    </form>
+                    <span id="msg"></span>
+                 </div>
+                </div>
+        </div>
+       
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Pranshu Mangal</p>
+    </div>
+    
+       <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+       
+
+        
+
+
+       </script>
+       
+</body>
+</html>
